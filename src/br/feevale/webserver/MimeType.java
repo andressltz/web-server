@@ -15,7 +15,9 @@ public enum MimeType {
     jpg("image/jpeg"),
     pdf("application/pdf"),
     png("image/png"),
-    txt("text/plain");
+    gif("image/gif"),
+    txt("text/plain"),
+    svg("image/svg+xml");
 
     private String mimeType;
 

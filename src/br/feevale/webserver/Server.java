@@ -9,7 +9,7 @@ public class Server {
 
     private final static String DOCUMENT_ROOT = "/Users/andresschultz/webserver/";
     private final static String HTML_NOT_ALLOWED = "<html><body><p>405 Method Not Allowed</p></body></html>";
-    private final static String HTML_NOT_FOUND = "<html><body><p>404 File Not Allowed</p></body></html>";
+    private final static String HTML_NOT_FOUND = "<html><body><p>404 File Not Found</p></body></html>";
 
     private final static String HEADER_NOT_ALLOWED = "" +
             "HTTP/1.1 405 Method Not Allowed\n" +

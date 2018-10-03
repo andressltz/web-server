@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web Server - Request</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Recebendo requisições</h1>
+    <div class="menu">
+      <span class="link">
+        <a href="http://localhost:8080/">Página inicial</a>
+      </span> |
+      <span class="link">
+        Recebendo requisição
+      </span> |
+      <span class="link">
+        <a href="http://localhost:8080/response.html">Respondendo requisição</a>
+      </span>
+    </div>
+  </header>
+  <article>
+    <p>Ao receber uma requisição, é verificado o método utilizado, se for GET faz a leitura do arquivo solicitado e
+      responde a requisição, caso seja outro método, retorna erro 405, pois outros métodos ainda não são suportados.</p>
+    <p>Se o arquivo solicitado não existir, será retornado 404.</p>
+    <div class="image">
+      <img src="http://localhost:8080/request.png">
+    </div>
+  </article>
+  <footer>
+    <p>Universidade Feevale</p>
+  </footer>
+</body>
+
+</html>
